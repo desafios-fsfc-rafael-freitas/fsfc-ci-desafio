@@ -1,7 +1,7 @@
 name: ci-sonarcloud
 on:
-  push:
-    branches: [ feat/ci-test ]
+  pull_request:
+    branches: [ develop ]
 
 jobs:
   run-test:
