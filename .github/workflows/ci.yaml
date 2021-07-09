@@ -4,7 +4,7 @@ on:
     branches: [ feat/ci-test ]
 
 jobs:
-  run-ci:
+  run-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
